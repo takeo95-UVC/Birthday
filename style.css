@@ -222,7 +222,15 @@ body {
 
   color: #b56c69;
 }
+.letter-content {
+    overflow-y: auto;
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* Older Edge */
+}
 
+.letter-content::-webkit-scrollbar {
+    display: none;               /* Chrome, Safari */
+}
 
 /* =========================
    OPEN ANIMATION
