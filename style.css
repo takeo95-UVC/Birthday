@@ -289,7 +289,7 @@ body {
   }
 
   .birthday-content {
-    transform: translateY(150px);
+    transform: translateY(20px);
   }
 
   .envelope-wrapper.open {
